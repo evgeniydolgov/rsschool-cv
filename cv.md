@@ -1,0 +1,14 @@
+**EVgeniy Dolgov**
+**amyr214519@gmail.com**
+**Fox_hounded#3720**
+**Огромное желание учиться**
+```javascript
+const func = (num) => {
+  if (num > 0) {
+    return num - 1;
+  }
+  return num + 1;
+};
+```
+**Опыта нету**
+**Образование:высшее,юриспруденция**
