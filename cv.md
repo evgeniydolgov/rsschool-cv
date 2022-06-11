@@ -1,9 +1,11 @@
 **EVgeniy Dolgov**
 ==================
-**amyr214519@gmail.com**
-**Fox_hounded#3720**
+**Education: Russia, Moscow**
+**Telegram: @Fox_hounded**
+**Discord: Fox_hounded#3720**
+**GitHub: evgeniydolgov**
 ==================
-**Огромное желание учиться**
+**My hobby has always been working with computers. And now I decided to make it my main occupation. Having cast aside doubts, I try to devote all my free time to learning, and I'm starting to like it.**
 ==================
 ```javascript
 const func = (num) => {
@@ -14,7 +16,14 @@ const func = (num) => {
 };
 ```
 =====================
-**Опыта нету**
+**>HTML**
+**CSS**
+**JavaScript Basics**
+**Python Basics**
+**VS Code**
+**Git, GitHab<**
 ======================
-**Образование:высшее,юриспруденция**
+**Orsk engineering college - tax specialist**
+**Moscow financial law academy - lawyer**
 ===================
+**English B2
