@@ -1,2 +1,2 @@
 https://evgeniydolgov.github.io/rsschool-cv/
-https://evgeniydolgov.github.io/rsschool-cv/cv
+https://github.com/evgeniydolgov/rsschool-cv/blob/main/cv.md
