@@ -15,7 +15,9 @@ const func = (num) => {
   return num + 1;
 };
 ```   
-=====================
+
+
+
 **HTML**  
 **CSS**  
 **JavaScript Basics**  
