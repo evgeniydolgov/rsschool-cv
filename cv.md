@@ -16,14 +16,14 @@ const func = (num) => {
 };
 ```
 =====================  
-**>HTML**  
+**HTML**  
 **CSS**  
 **JavaScript Basics**  
 **Python Basics**  
 **VS Code**  
-**Git, GitHab<**  
+**Git, GitHab**  
 ======================  
 **Orsk engineering college - tax specialist**  
 **Moscow financial law academy - lawyer**  
 ===================  
-**English B2  
+**English B2**  
