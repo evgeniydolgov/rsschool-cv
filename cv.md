@@ -27,4 +27,4 @@ const func = (num) => {
 **Orsk engineering college - tax specialist**  
 **Moscow financial law academy - lawyer**  
 ===================  
-**English B2**  
+**English B2**
