@@ -16,7 +16,6 @@ const func = (num) => {
 };
 ```   
 
-
 **HTML**  
 **CSS**  
 **JavaScript Basics**  
