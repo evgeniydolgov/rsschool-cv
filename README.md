@@ -1,1 +1,3 @@
-https://evgeniydolgov.github.io/rsschool-cv/cv
+rsschool-cv
+=======================================
+https://evgeniydolgov.github.io/rsschool-cv/
