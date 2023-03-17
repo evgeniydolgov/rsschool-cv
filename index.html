@@ -1,92 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
     <title>CV</title>
-</head>
-<body class="body">
+  </head>
+  <body class="body">
     <header class="header">
-        <div class="person-pic">
-            <img src="assets/img/foto_by_cv.jpg" alt="my foto"></div>
-        <div class="person">
-            <h1>Evgeniy Dolgov</h1>
-            <h2>JUNIOR FRONT-END DEVELOPER</h2>
-        </div>
+      <div class="person-pic">
+        <img src="assets/img/foto_by_cv.jpg" alt="my foto" />
+      </div>
+      <div class="person">
+        <h1>Evgeniy Dolgov</h1>
+        <h2>JUNIOR FRONT-END DEVELOPER</h2>
+      </div>
     </header>
     <main>
-        <nav class="nav">
-            <ul>
-                <li><a href="#contacts">Contacts</a></li>
-                <li><a href="#summary">Summary</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#code">Code</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#languages">Languages</a></li>
-            </ul>
-        </nav>
-        <section class="contacts-summary">
-            <div class="contacts" id="contacts">
-                <h2>Contacts</h2>
-                <ul>
-                    <li>Location: Russia, Moscow</li>
-                    <li>Telegram: @Fox_hounded</li>
-                    <li>Discord: Fox_hounded#3720</li>
-                    <li>GitHub: evgeniydolgov</li>
-                </ul>
-            </div>
-            <div class="summary" id="summary">
-                <h2>Summary</h2>
-                <div>My hobby has always been working with computers. And now I decided to make it my main occupation. Having cast aside doubts, I try to devote all my free time to learning, and I'm starting to like it.</div>
-            </div>
-        </section>
-        <section class="skills-code">
-            <div class="skills" id="skills">
-                <h2>Skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript Basics</li>
-                    <li>Python Basics</li>
-                    <li>VS Code</li>
-                    <li>Git, GitHub</li>
-                </ul>
-            </div>
-            <div class="code" id="code">
-                <h2>Code</h2>
-                <pre><code>const func = (num) =&gt; { <br>    if (num &gt; 0) { <br>        return num - 1;} <br>    return num + 1;<br>};</code></pre>
-            </div>
-        </section>
-        <section class="project-education-languages">
-            <div class="project" id="project">
-                <h2>My project</h2>
-                <a href="https://rolling-scopes-school.github.io/evgeniydolgov-JSFEPRESCHOOL2022Q2/travel/">Travel</a>
-                <a href="https://rolling-scopes-school.github.io/evgeniydolgov-JSFEPRESCHOOL2022Q2/momentum/">Momentum</a>
-                <a href="https://evgeniydolgov.github.io/eldritch-codejam-work/">Eldritch Horror</a>
-            </div>
-            <div class="education" id="education">
-                <h2>Education</h2>
-                <ul>
-                    <li>Orsk engineering college - tax specialist</li>
-                    <li>Moscow financial law academy - lawyer</li>
-                </ul>
-            </div>
-            <div class="languages" id="languages">
-                <h2>Languages</h2>
-                English - B2
-            </div>
-        </section>
+      <nav class="nav">
+        <ul>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+      <section class="contacts-summary">
+        <div class="contacts" id="contacts">
+          <h2>Contacts</h2>
+          <ul class="aboutMe__list">
+            <li>Location: Russia, Moscow</li>
+            <li>Telegram: <a href="https://t.me/Fox_hounded">@Fox_hounded</a></li>
+            <li>Discord: Fox_hounded#3720</li>
+            <li>GitHub: <a href="https://github.com/evgeniydolgov/">evgeniydolgov</a></li>
+          </ul>
+        </div>
+        <div class="summary" id="summary">
+          <h2>Summary</h2>
+          <div>
+            My hobby has always been working with computers. And now I decided to make it my main occupation. Having
+            cast aside doubts, I try to devote all my free time to learning, and I'm starting to like it.
+          </div>
+        </div>
+      </section>
+      <section class="skills-code">
+        <div class="skills" id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript Basics</li>
+            <li>React</li>
+            <li>Jest</li>
+            <li>WebPack, Vite</li>
+            <li>VS Code</li>
+            <li>Git, GitHub</li>
+          </ul>
+        </div>
+        <div class="code" id="code">
+          <h2>Code</h2>
+          <pre><code>const func = (num) =&gt; { <br>    if (num &gt; 0) { <br>        return num - 1;} <br>    return num + 1;<br>};</code></pre>
+        </div>
+      </section>
+      <section class="project-education-languages">
+        <div class="project" id="project">
+          <h2>My project</h2>
+          <a href="https://rolling-scopes-school.github.io/evgeniydolgov-JSFEPRESCHOOL2022Q2/travel/">Travel</a>
+          <a href="https://rolling-scopes-school.github.io/evgeniydolgov-JSFEPRESCHOOL2022Q2/momentum/">Momentum</a>
+          <a href="https://evgeniydolgov.github.io/eldritch-codejam-work/">Eldritch Horror</a>
+          <a href="https://rolling-scopes-school.github.io/evgeniydolgov-JSFE2022Q3/online-zoo/pages/main/">
+            Online-zoo</a
+          >
+          <a href="https://rolling-scopes-school.github.io/evgeniydolgov-JSFE2022Q3/gem-puzzle/">Gem puzzle</a>
+          <a href="https://github.com/evgeniydolgov/projects-from-RS-School">The wither voices</a>
+          <a href="https://zingy-cactus-c32f7f.netlify.app/">Online-store</a>
+          <a href="hhttps://shchi-borshci.herokuapp.com/"> RS-Clone</a>
+        </div>
+        <div class="education" id="education">
+          <h2>Education</h2>
+          <ul>
+            <li>Orsk engineering college - tax specialist</li>
+            <li>Moscow financial law academy - lawyer</li>
+          </ul>
+        </div>
+        <div class="languages" id="languages">
+          <h2>Languages</h2>
+          English - B2
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <a href="https://rs.school/js/"><img src="./assets/img/rolling_scopes.jpg" alt="Rolling scopes school"></a>
-        <a href="https://github.com/evgeniydolgov"><img src="./assets/img/icons8-github(1).svg" alt="GitHub img"></a>
-        <p>2022 ©</p>
+      <a href="https://rs.school/js/"><img src="./assets/img/rolling_scopes.jpg" alt="Rolling scopes school" /></a>
+      <a href="https://github.com/evgeniydolgov"><img src="./assets/img/icons8-github(1).svg" alt="GitHub img" /></a>
+      <p>2022 ©</p>
     </footer>
-</body>
+  </body>
 </html>
